@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    font-size:18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight:400;  
+    background: hsl(185, 75%, 39%);
+    background-image: url(bg-pattern-top.svg),url(bg-pattern-bottom.svg);
+    background-position: bottom 50vh right 50vw,top 50vh left 50vw;
+    background-repeat: no-repeat, no-repeat;
+    overflow: hidden;
+    height: 100vh;
+   
+}
+/****Typography****/
+h3{
+    font-size:1.125rem;
+    color: hsl(229, 23%, 23%);  
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight:700; 
+    margin-top:0; 
+    margin-bottom:0;
+}
+p,span{
+    color: hsl(0, 0%, 59%);
+    margin-top:.3em;
+}
+span{
+    font-size:1.125rem;
+    font-weight: 400;
+}
+p{
+    font-size:0.875rem;
+}
+/****Layout****/
+.card{
+    width:90%;
+    max-width:340px;
+    margin:0 auto;
+    background-color: #fff;
+   /*background-color: blue;
+   */position:absolute;
+   top:50%;
+   left:50%;
+   border-radius: 17px;
+   box-shadow:1px 1px 18px #888888;
+   transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -o-transform: translate(-50%,-50%);
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   -ms-border-radius: 17px;
+   -o-border-radius: 17px;
+}
+/*****profile_header****/
+.header_image{
+    width:100%; 
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+/*****profile_body****/
+.profile_body{
+    text-align: center; 
+}
+.profile_image{
+    border:5px solid white;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    margin-top:-2em;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+/*****profile_footer****/
+.profile_footer{
+    display:flex;
+    justify-content: space-around;
+    border-top:1px solid #f0e5e5;
+    padding:0.875em;
+}
