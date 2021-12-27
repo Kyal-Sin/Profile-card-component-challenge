@@ -48,6 +48,12 @@ p{
     -ms-border-radius:1em;
     -o-border-radius:1em;
 }
+@media(max-width:350px)
+{
+    .card{
+        width:90%;
+    }
+}
 .name{
     margin-top:1em;
 }
