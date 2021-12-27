@@ -11,6 +11,8 @@ body{
     display:flex;
     flex-direction:row;
     justify-content:center;
+    align-items:center;
+  padding:20px;
     background-color: var(--clr-cyan);
     background-image: url(bg-pattern-top.svg),url(bg-pattern-bottom.svg);
     background-position: bottom 50vh right 50vw,top 50vh left 50vw;
