@@ -35,13 +35,14 @@ p{
 .card{
      width:340px;
     height:350px;
+     display: flex;
+  flex-direction: column;
     background-color: #fff;
     border-radius:1em;
     -webkit-border-radius:1em;
     -moz-border-radius:1em;
     -ms-border-radius:1em;
     -o-border-radius:1em;
-    position:relative;
 }
 .name{
     margin-top:1em;
