@@ -34,9 +34,8 @@ p{
     margin:0;
 }
 .card{
-     width:100%;
-    max-width:21rem;
-    max-height:23rem;
+     width:340px;
+    height:350px;
     background-color: #fff;
     border-radius:1em;
     -webkit-border-radius:1em;
