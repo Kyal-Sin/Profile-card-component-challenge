@@ -37,10 +37,10 @@ p{
     margin:0;
 }
 .card{
-     width:340px;
+    width:340px;
     height:350px;
-     display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
     border-radius:1em;
     -webkit-border-radius:1em;
@@ -48,9 +48,9 @@ p{
     -ms-border-radius:1em;
     -o-border-radius:1em;
 }
-@media(max-width:350px)
+@media(max-width:375px)
 {
-    .card{
+ .card{
         width:90%;
     }
 }
